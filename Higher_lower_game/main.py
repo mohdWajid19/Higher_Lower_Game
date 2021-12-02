@@ -55,7 +55,7 @@ def play_game():
         else:
             if user_guessed == 0:
                 print("you tried entering wrong value,")
-            print(f"You Played well, your score is {score}")
+            print(f"You Played well, \n Your Guess was wrong, your score is {score}")
             is_correct = False
     if input("wanna play again (y/n): ") == 'y':
         play_game()
