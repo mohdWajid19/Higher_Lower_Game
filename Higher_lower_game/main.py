@@ -28,7 +28,7 @@ def user_voted(string):
         return 1
     elif string == '2':
         return 2
-    else:
+    else: #this one is if user entered anything other than 1 or 2
         return 0
 
 def play_game():
